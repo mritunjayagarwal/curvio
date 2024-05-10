@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+section {
+    padding: 100px 0;
+}
+
+button {
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    background: #6441A4;
+    border-radius: 0;
+    color: white;
+    position: relative;
+}
+
+button:before {
+    content: "";
+    position: absolute;
+    left: -0.5rem;
+    top: 0;
+    bottom: 0.5rem;
+    width: 0.5rem;
+    background: #6441A4;
+}
+
+button:after {
+    content: "";
+    position: absolute;
+    left: -0.5rem;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0.5rem 0.5rem 0;
+    border-color: transparent #6441A4 transparent transparent;
+}
+
+button:hover {
+    background: #7D5BBE;
+}
+
+button:hover:before {
+    background: #7D5BBE;
+}
+
+button:hover:after {
+    border-color: transparent #7D5BBE transparent transparent;
+}
+
+.hero {
+    background: url('../img/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+}
+
+.hero-head {
+    font-family: Inter;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    text-align: left;
+    color: #fff
+}
+
+.hero-button-series button {
+    margin-right: 30px;
+    width: 200px;
+    margin-top: 100px;
+}
+
+.control-section {
+    background: #000;
+}
+
+.control-para {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.discover-section{
+    background: #000;
+}
+
+.revolutionize-section{
+    background-color: #DEDEDE;
+}
+
+.revolutionize-head {
+    font-family: Inter;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    text-align: left;
+    color: #000
+}
+
+.revolutionize-para {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000;
+}
