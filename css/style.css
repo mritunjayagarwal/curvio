@@ -4,6 +4,11 @@ section {
     padding: 100px 0;
 }
 
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 button {
     border: 0;
     padding: 0.5rem 0.5rem 0.5rem 0;
@@ -196,3 +201,77 @@ line-height: 22.5px;
 text-align: left;
 
 }
+
+/* footer */
+
+footer {
+    background: #000;
+}
+
+.footer-wrapper {
+    padding: 50px 0;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.83);
+    font-size: 14px;
+}
+
+.footer-list-head {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-list li {
+    margin: 20px 0;
+    margin-left: -40px;
+}
+
+.footer-list li a{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background: rgba(11, 20, 36, 1);
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 0.83);
+}
+
+.text-right-mobile{
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-head, .revolutionize-head{
+        font-size: 35px;
+        line-height: unset !important;
+    }
+
+    .hero-button-series button{
+        margin: 10px 0;
+        width: 300px
+    }
+
+    p{
+        font-size: 18px !important;
+    }
+
+    .wrapper {
+        min-height: unset;
+        padding-bottom: 80px;
+    }
+
+    .fact{
+        min-width: 100vw !important;
+    }
+
+    .text-right-mobile{
+        text-align: left;
+    }
+  }
